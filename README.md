@@ -26,5 +26,16 @@ Basta criar um servidor para o Front-End e um para o Back-End.
 - No terminal, na pasta _backend_ inicie o servidor com `npm start`.
 - Em outro terminal, na pasta _frontend_ inicie com `npm start`.
 
-Irá abrir uma página `localhost:3333`.
+Deverá abrir uma página `localhost:3333`.
+
+#### Caso abra com uma porta diferente
+
+1. Na pasta _backend_
+  - Vá para a pasta _src_
+  - No arquivo _index.js_ mude o valor da porta em `app.listen()`.
+
+
+2. Na pasta _frontend_
+  - Vá para a pasta _services_
+  - Haverá o caminho em _baseURL_. Mude o valor da porta.
 
