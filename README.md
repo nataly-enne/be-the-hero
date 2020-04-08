@@ -38,4 +38,14 @@ Deverá abrir uma página `localhost:3333`.
 2. Na pasta _frontend_
   - Vá para a pasta _services_
   - Haverá o caminho em _baseURL_. Mude o valor da porta.
+  
+ ## 3. Aplicação mobile
+ > Pra testar o _app_ eu usei o expo direto no meu celular baixando o aplicativo da expo.
+ 
+ Para isso, instale a expo e as depêndencias com:
+```bash
+npm install expo-cli --global 
+```
+Caso falte alguma dependência use `npm install`.
 
+Para executar a aplicação use `npm start`.
